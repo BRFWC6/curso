@@ -1,18 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
 
-    <title>Lista de Cursos DevOps Alura</title>
+    <title>Decodificador/Codificador</title>    
+    <link rel=stylesheet href="./css/style.css"/>
 
 </head>
 <body>
-    <ul>
-        <li>Vagrant: Gerenciando máquinas virtuais</li>
-        <li>Docker: Criando containers sem dor de cabeça</li>
-        <li>Ansible</li>
-        <li>Integração Contínua</li>
-        <li>Kubernetes</li>
-    </ul>
+    <div class="logo">
+        <div class="logo-alura">
+            <span class="icon">
+                <img src="./images/vector_alura.svg" id="vector-alura" alt="" />
+            </span>
+        </div>
+
+    </div>
+    
+    <div class="container">
+        <div>            
+            <img src="./images/high_quality_products.svg" id="vector-container" alt="" />            
+        </div>
+        <div class="svg-text">
+        <div class="svg-title">
+            Nenhuma mensagem encontrada
+        </div>
+        <div class="svg-subtitle">
+            Digite um texto que você deseja criptografar ou descriptografar.
+        </div>
+        </div>               
+    </div>
+
+    <div class="result-container">
+        <textarea id="result">...</textarea>
+        <div class="copiar-button">
+        <button id="Copiar"><span> Copiar </span></button>
+        </div>
+    </div>
+
+    <div>
+        <form>
+            <div class="form-style">
+                <input type="text" id="input-form" name="textform" placeholder="Digite seu texto..."/>
+            </div>            
+        </form>
+    </div>
+
+    <div class="input-button">
+        <div class="criptografar-button" onclick="btnCripto()"><button type="criptografar" id="Criptografar"><p>Criptografar</p></button></div>
+        <div class="descriptografar-button" onclick="btnDescripto()"><button type="descriptografar" id="Descriptografar"><p>Descriptografar</p></button></div>
+    </div>
+    <div class="obs-info">
+        <div class="obs-info-icon"><span class="obs-info-icon-pos"><img src="./images/vector_i.svg" id="vector-i" alt="" /></span></div>
+        <div class="obs-info-text">Apenas letras minúsculas e sem acento.</div>
+    </div>
+
+    <script src="./js/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,458 @@
+/* Decodificador - 1 Desktop */
+
+html {
+position: relative;
+width: 1366px;
+height: 640px;
+}
+/* Light blue/light-blue-100 */
+:root {
+background: #F3F5FC;
+}
+
+
+/* Frame 6 */
+
+
+/* Auto layout */
+.logo {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+
+position: absolute;
+width: 120px;
+height: 48px;
+left: 40px;
+top: 40px;
+}
+.logo-alura {
+/* Logo */
+
+
+width: 120px;
+height: 48px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.vector-alura {
+/* Alura */
+
+position: absolute;
+left: 36.67%;
+right: 37.43%;
+top: 0%;
+bottom: 0%;
+
+/* Dark blue/dark-blue-300 */
+
+background: #0A3871;
+}
+
+/* Rectangle 1 */
+
+.container {
+position: absolute;
+width: 380px;
+height: 590px;
+left: 948px;
+top: 25px;
+
+/* White */
+
+background: #FFFFFF;
+/* shadow */
+
+box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+border-radius: 32px;
+}
+
+#vector-container {
+position: absolute;
+width: 318px;
+height: 190px;
+left: 30px;
+top: 176px;
+}
+
+
+/* Frame 5 */
+
+
+/* Auto layout */
+.svg-text {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 318px;
+height: 76px;
+left: 30px;
+top: 386px;
+}
+
+.svg-title {
+width: 318px;
+height: 36px;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 120%;
+/* or 29px */
+
+
+text-align: center;
+
+/* Gray/gray-500 */
+
+color: #343A40;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.svg-subtitle {
+/* Digite um texto que você deseja criptografar ou descriptografar. */
+
+
+width: 318px;
+height: 30px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+text-align: center;
+
+/* Gray/gray-400 */
+
+color: #495057;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+/* Digite seu texto */
+
+#input-form {
+position: absolute;
+width: 645px;
+height: 30px;
+left: 227px;
+top: 105px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+/* identical to box height, or 48px */
+}
+
+/* Dark blue/dark-blue-300 */
+input::placeholder {
+color: #0A3871;
+}
+
+#result {
+position: absolute;
+width: 336px;
+height: 450px;
+left: 20px;
+top: 32px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+/* or 36px */
+
+
+/* Gray/gray-400 */
+
+color: #495057;
+
+}
+
+/* Frame 3 */
+
+
+/* Auto layout */
+.input-button {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 645px;
+height: 42px;
+left: 227px;
+top: 553px;
+}
+
+/* Button */
+
+
+/* Auto layout */
+.criptografar-button {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+
+width: 311px;
+height: 42px;
+}
+/* Dark blue/dark-blue-300 */
+#Criptografar {
+background: #0A3871;
+border-radius: 24px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+/* Button */
+
+.descriptografar-button {
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+
+width: 311px;
+height: 42px;
+}
+/* Light gray */
+#Descriptografar {
+background: #D8DFE8;
+/* Dark blue/dark-blue-300 */
+
+border: 1px solid #0A3871;
+border-radius: 24px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+p {
+
+width: 280px;
+height: 12px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 12px;
+text-align: center;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+
+}
+
+.criptografar-button p {
+/* White */
+
+color: #FFFFFF;
+}
+
+.descriptografar-button p {
+/* Dark blue/dark-blue-300 */
+
+color: #0A3871;
+}
+
+/* Frame 1 */
+
+
+/* Auto layout */
+.obs-info {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 239px;
+height: 11px;
+left: 227px;
+top: 531px;
+}
+
+/* bi:exclamation-circle-fill */
+
+.obs-info-icon {
+width: 15px;
+height: 10px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#vector-i {
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Gray/gray-400 */
+/*
+background: #495057;
+*/
+}
+
+.obs-info-icon-pos {
+/* Group */
+
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+}
+
+/* Apenas letras minusculas e sem acento. */
+
+.obs-info-text {
+width: 216px;
+height: 11px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+/* identical to box height, or 18px */
+
+
+/* Gray/gray-400 */
+
+color: #495057;
+
+opacity: 0.8;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.result-container {
+position: absolute;
+width: 380px;
+height: 590px;
+left: 948px;
+top: 25px;
+
+/* White */
+
+background: #FFFFFF;
+/* shadow */
+
+box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+border-radius: 32px;
+}
+
+.copiar-button {
+    /* Button */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+}
+#Copiar {
+position: absolute;
+width: 318px;
+height: 42px;
+left: 31px;
+bottom: 30px;
+
+/* Dark blue/dark-blue-300 */
+
+border: 1px solid #0A3871;
+border-radius: 24px;
+}
+
+#Copiar span {
+width: 273px;
+height: 12px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 12px;
+text-align: center;
+
+/* Dark blue/dark-blue-300 */
+
+color: #0A3871;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+}
